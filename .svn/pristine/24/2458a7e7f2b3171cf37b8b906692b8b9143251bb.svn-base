@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Recipies>
+	<Recipe>
+		<ID>1</ID>
+		<Name>Spaghetti</Name>
+		<Image>../Content/Dishes/Spagetti.jpg</Image>
+		<RecipeText>First make the sauce with tomato and garlic and then boil the pasta....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+	<Recipe>
+		<ID>2</ID>
+		<Name>Pizza</Name>
+		<Image>../Content/Dishes/Pizza.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>red</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+<Recipe>
+		<ID>3</ID>
+		<Name>Indian Chicken Curry</Name>
+		<Image>../Content/Dishes/Indian_Chicken_Curry.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>4</ID>
+		<Name>Bocconcini di Taccino</Name>
+		<Image>../Content/Dishes/Bocconcini_di_Taccino.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>5</ID>
+		<Name>Pollo al Forno</Name>
+		<Image>../Content/Dishes/Pollo_al_Forno.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>6</ID>
+		<Name>Lasagnia</Name>
+		<Image>../Content/Dishes/Lasagnia.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>red</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>7</ID>
+		<Name>Chinese Noodles</Name>
+		<Image>../Content/Dishes/Chinese_Noodles.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>8</ID>
+		<Name>Shrimps</Name>
+		<Image>../Content/Dishes/Shrimps.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>red</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>9</ID>
+		<Name>Roasted Turky</Name>
+		<Image>../Content/Dishes/Roasted_Turky.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>10</ID>
+		<Name>Mexican Beef Steaks</Name>
+		<Image>../Content/Dishes/Mexican_Beef_Steaks.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>red</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>11</ID>
+		<Name>Kung Pao Chicken</Name>
+		<Image>../Content/Dishes/Kung_Pao_Chicken.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>12</ID>
+		<Name> Indian Prawns Dish</Name>
+		<Image>../Content/Dishes/Prawns_Dishe_India.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>13</ID>
+		<Name>Mixed Vegetables Side Dish</Name>
+		<Image>../Content/Dishes/Mixed_Vegetables_side_dish.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>14</ID>
+		<Name>MethiPulao</Name>
+		<Image>../Content/Dishes/MethiPulao.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>15</ID>
+		<Name>Lemon Garlic Roasted Chicken</Name>
+		<Image>../Content/Dishes/Lemon-Garlic-roasted-chicken.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>16</ID>
+		<Name>Green Bean Salad</Name>
+		<Image>../Content/Dishes/Green_Bean_Salad.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>17</ID>
+		<Name>Chicken with Mushroom</Name>
+		<Image>../Content/Dishes/Chicken-with-Mushroom.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>18</ID>
+		<Name>Egg Dishes</Name>
+		<Image>../Content/Dishes/Egg-Dishes.JPG</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>19</ID>
+		<Name>Balti-Dishes</Name>
+		<Image>../Content/Dishes/Balti-Dishes.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>20</ID>
+		<Name>Indian Potato Dish</Name>
+		<Image>../Content/Dishes/indian_potato_dish.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+<Recipe>
+		<ID>21</ID>
+		<Name>Paella</Name>
+		<Image>../Content/Dishes/Paella.jpg</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callory>300</Callory>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+
+</Recipies>

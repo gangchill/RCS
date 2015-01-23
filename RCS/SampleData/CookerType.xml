@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CookerType>
+	<Type>
+		<ID>1</ID>
+		<Name> less than 20 min</Name>
+		<Image>../Content/Icons/less20.png</Image>
+	</Type>
+	<Type>
+		<ID>2</ID>
+		<Name>less than 40 min</Name>
+		<Image>../Content/Icons/less40.png</Image>
+	</Type>
+	<Type>
+		<ID>3</ID>
+		<Name>more than 60 min</Name>
+		<Image>../Content/Icons/less60.png</Image>
+	</Type>
+	<Type>
+		<ID>4</ID>
+		<Name>any</Name>
+		<Image>../Content/Icons/any.png</Image>
+	</Type>	
+</CookerType>

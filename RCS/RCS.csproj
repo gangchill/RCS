@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9949FBE8-2AEC-4A97-A894-882CD1F9C11F}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RCS</RootNamespace>
+    <AssemblyName>RCS</AssemblyName>
+    <SilverlightVersion>v4.0</SilverlightVersion>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>RCS.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>RCS.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <Utf8Output>true</Utf8Output>
+    <ExpressionBlendVersion>4.0.30816.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HorizontalLoopingSelector, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Visual Studio 2010\Projects\HorizontalLoopingSelector\HorizontalLoopingSelector\Bin\Debug\HorizontalLoopingSelector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Drawing" />
+    <Reference Include="Microsoft.Expression.Interactions" />
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Controls" />
+    <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Controls.Layout.Toolkit">
+      <HintPath>C:\Users\viktor\temp\silverlight-71382\Release\Silverlight3\Source\Controls.Layout.Toolkit\obj\Debug\System.Windows.Controls.Layout.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Toolkit">
+      <HintPath>C:\Users\viktor\temp\silverlight-71382\Release\Silverlight3\Source\Controls.Toolkit\obj\Debug\System.Windows.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Interactivity" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addingradiant.xaml.cs">
+      <DependentUpon>addingradiant.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Code\CountryData.cs" />
+    <Compile Include="Code\ListLoopingDataSource.cs" />
+    <Compile Include="Code\LoopingDataSourceBase.cs" />
+    <Compile Include="contact.xaml.cs">
+      <DependentUpon>contact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DetailsPage.xaml.cs">
+      <DependentUpon>DetailsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="edit list .xaml.cs">
+      <DependentUpon>edit list .xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ingridients.xaml.cs">
+      <DependentUpon>Ingridients.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="new list.xaml.cs">
+      <DependentUpon>new list.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NumbersDataSource.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Receipe.xaml.cs">
+      <DependentUpon>Receipe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Results.xaml.cs">
+      <DependentUpon>Results.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SampleData\chekbox\chekbox.xaml.cs">
+      <DependentUpon>chekbox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SampleData\Contacts\Contacts.xaml.cs">
+      <DependentUpon>Contacts.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SampleData\ingridiants\ingridiants.xaml.cs">
+      <DependentUpon>ingridiants.xaml</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SampleData\scroll1\scroll1.xaml.cs">
+      <DependentUpon>scroll1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SampleData\dishtype\dishtype.xaml.cs">
+      <DependentUpon>dishtype.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SampleData\scrol\scrol.xaml.cs">
+      <DependentUpon>scrol.xaml</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Search.xaml.cs">
+      <DependentUpon>Search.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="shoppinglist.xaml.cs">
+      <DependentUpon>shoppinglist.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\SelectorItemViewModel.cs" />
+    <Compile Include="ViewModels\ItemViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\RecipeViewModel.cs" />
+    <Compile Include="ViewModels\ShoppingListItemViewModel.cs" />
+    <Compile Include="ViewModels\ShoppingListViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="addingradiant.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="contact.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DetailsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="edit list .xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Ingridients.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="new list.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Receipe.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Results.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SampleData\chekbox\chekbox.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Resource Include="Content\Icons\shoppinglisticon.png" />
+    <Content Include="icons\appbar.feature.email.rest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\home.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SampleData\ingridiants\ingridiants.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Page Include="SampleData\Contacts\Contacts.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SampleData\scroll1\scroll1.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SampleData\dishtype\dishtype.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Content Include="SampleData\scrol\scrol.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Page Include="Search.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="shoppinglist.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml" />
+    <DesignTimeOnly Include="SampleData\dishtype\dishtype.xsd" />
+    <DesignTimeOnly Include="SampleData\scroll1\scroll1.xsd" />
+    <DesignTimeOnly Include="SampleData\chekbox\chekbox.xsd" />
+    <Content Include="SampleData\ingridiants\ingridiants.xsd">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SampleData\scrol\scrol.xsd">
+      <SubType>Designer</SubType>
+    </Content>
+    <DesignTimeOnly Include="SampleData\Contacts\Contacts.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Content\Icons\Coffee.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Content\Icons\China-Flag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Content\Icons\Dessert.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Content\Icons\Greece-Flag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Content\Icons\India-Flag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Content\Icons\Indonesia-Flag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Content\Icons\Italy-Flag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Content\Icons\Japan-Flag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Content\Icons\plus.png" />
+    <Resource Include="Content\Icons\Saint-Barthelemy-Flag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Content\Icons\Spain-Flag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Content\Icons\sup.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Content\Icons\Turkey-Flag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Content\Icons\United-States-Flag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Content\Icons\Germany-Flag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Content\Icons\maindish.png" />
+    <Resource Include="Content\Icons\salat.png" />
+    <Resource Include="Content\Icons\any.png" />
+    <Resource Include="Content\Icons\less20.png" />
+    <Resource Include="Content\Icons\less40.png" />
+    <Resource Include="Content\Icons\less60.png" />
+    <Resource Include="Content\New folder %283%29\001_05.png" />
+    <Resource Include="Content\New folder %283%29\101.png" />
+    <Resource Include="Content\New folder %283%29\cart_add.png" />
+    <Resource Include="Content\New folder %283%29\chef.png" />
+    <Resource Include="Content\New folder %283%29\default.jpg" />
+    <Resource Include="Content\New folder %283%29\full basket.png" />
+    <Resource Include="Content\New folder %283%29\images.jpg" />
+    <Resource Include="Content\New folder %283%29\images1.jpg" />
+    <Resource Include="Content\New folder %283%29\images10.jpg" />
+    <Resource Include="Content\New folder %283%29\images11.jpg" />
+    <Resource Include="Content\New folder %283%29\images12.jpg" />
+    <Resource Include="Content\New folder %283%29\images2.jpg" />
+    <Resource Include="Content\New folder %283%29\images3.jpg" />
+    <Resource Include="Content\New folder %283%29\images4.jpg" />
+    <Resource Include="Content\New folder %283%29\images5.jpg" />
+    <Resource Include="Content\New folder %283%29\images6.jpg" />
+    <Resource Include="Content\New folder %283%29\images7.jpg" />
+    <Resource Include="Content\New folder %283%29\images8.jpg" />
+    <Resource Include="Content\New folder %283%29\images9.jpg" />
+    <Resource Include="Content\New folder %283%29\kpdf.png" />
+    <Resource Include="Content\New folder %283%29\list2-add.png" />
+    <Resource Include="Content\New folder %283%29\plus.png" />
+    <Resource Include="Content\New folder %283%29\restaurant_food.png" />
+    <Resource Include="Content\New folder %283%29\shopping-cart_yellow.png" />
+    <Resource Include="Content\New folder %283%29\shoppingbasket.png" />
+    <Resource Include="Content\New folder %283%29\shopping_bag.png" />
+    <Resource Include="Content\New folder %283%29\shopping_basket red.png" />
+    <Resource Include="Content\New folder %283%29\shopping_cart yellow.png" />
+    <Resource Include="Content\Dishes\1.jpg" />
+    <Resource Include="Content\Dishes\1327600394_food.png" />
+    <Content Include="Content\Dishes\1328096317_sup.ico" />
+    <Content Include="Content\Dishes\1328096366_food.ico" />
+    <Resource Include="Content\Dishes\Balti-Dishes.jpg" />
+    <Resource Include="Content\Dishes\Bocconcini_di_Taccino.jpg" />
+    <Resource Include="Content\Dishes\Chicken-with-Mushroom.jpg" />
+    <Resource Include="Content\Dishes\chicken.jpg" />
+    <Resource Include="Content\Dishes\Chinese_Noodles.jpg" />
+    <Resource Include="Content\Dishes\Cool Dishes Cook Book image.jpg" />
+    <Resource Include="Content\Dishes\croquetas-jamon.jpg" />
+    <Resource Include="Content\Dishes\Curry_Dishes.jpg" />
+    <Resource Include="Content\Dishes\dress_up_your_dishes_cream_600x450.jpg" />
+    <Resource Include="Content\Dishes\Egg-Dishes.JPG" />
+    <Resource Include="Content\Dishes\Green_Bean_Salad.jpg" />
+    <Resource Include="Content\Dishes\images.jpg" />
+    <Resource Include="Content\Dishes\Indian_Chicken_Curry.jpg" />
+    <Resource Include="Content\Dishes\indian_potato_dish.jpg" />
+    <Resource Include="Content\Dishes\Kung_Pao_Chicken.jpg" />
+    <Resource Include="Content\Dishes\Lasagnia.jpg" />
+    <Resource Include="Content\Dishes\Lemon-Garlic-roasted-chicken.jpg" />
+    <Resource Include="Content\Dishes\Margarita-Chicken-Steak.jpg" />
+    <Resource Include="Content\Dishes\MethiPulao.jpg" />
+    <Resource Include="Content\Dishes\Mexican_Beef_Steaks.jpg" />
+    <Resource Include="Content\Dishes\Mixed_Vegetables_side_dish.jpg" />
+    <Resource Include="Content\Dishes\P5100021.JPG" />
+    <Resource Include="Content\Dishes\Paella.jpg" />
+    <Resource Include="Content\Dishes\Pizza.jpg" />
+    <Resource Include="Content\Dishes\Pollo_al_Forno.jpg" />
+    <Resource Include="Content\Dishes\Prawns_Dishe_India.jpg" />
+    <Resource Include="Content\Dishes\Roasted_Turky.jpg" />
+    <Resource Include="Content\Dishes\shoppinglist.png" />
+    <Resource Include="Content\Dishes\Shrimps.jpg" />
+    <Resource Include="Content\Dishes\side_dishes_aloo_ghobi_300x450.jpg" />
+    <Resource Include="Content\Dishes\Some-indian-dishes-indian-food-19906254-400-303.jpg" />
+    <Resource Include="Content\Dishes\Spagetti.jpg" />
+    <Resource Include="Content\Dishes\traditionalgreekdishes.jpg" />
+    <Content Include="icons\appbar.add.rest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\appbar.feature.search.rest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\appbar.save.rest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\appbar.share.rest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SampleData\CookerType.xml" />
+    <Content Include="SampleData\Countrys.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SampleData\dishtype.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SampleData\IngridientShoppinglist.xml" />
+    <Content Include="SampleData\Ingridients.xml" />
+    <Content Include="SampleData\Recipe.xml" />
+    <Content Include="SampleData\RecipeIngridient.xml" />
+    <Content Include="SampleData\Recipes.xml" />
+    <EmbeddedResource Include="SampleData\Shoppinglist.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="SplashScreenImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1327600394_food.png" />
+    <Resource Include="red_green_amber.png" />
+    <Resource Include="shoppinglist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\toolkit\Microsoft.Phone.Controls.Toolkit\Microsoft.Phone.Controls.Toolkit.csproj">
+      <Project>{0754458A-7AFC-463A-B27D-2F6980522119}</Project>
+      <Name>Microsoft.Phone.Controls.Toolkit</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

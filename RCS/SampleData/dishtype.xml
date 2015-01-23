@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Mealtypes>
+	<Type>
+		<ID>1</ID>
+		<Name>Main Dish</Name>
+		<Image>../Content/Icons/maindish.png</Image>
+	</Type>
+	<Type>
+		<ID>2</ID>
+		<Name>Salat</Name>
+		<Image>../Content/Icons/salat.png</Image>
+	</Type>
+	<Type>
+		<ID>3</ID>
+		<Name>Dessert</Name>
+		<Image>../Content/Icons/Dessert.png</Image>
+	</Type>
+	<Type>
+		<ID>4</ID>
+		<Name>Soup</Name>
+		<Image>../Content/Icons/sup.png</Image>
+	</Type>
+	
+</Mealtypes>

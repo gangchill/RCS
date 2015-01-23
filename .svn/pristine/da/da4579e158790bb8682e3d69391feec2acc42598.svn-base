@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ShoppingLists>
+	<Item>
+		<ID>1</ID>
+		<Name>List A</Name>
+		<Date>06.02.2012</Date>
+	</Item>
+  <Item>
+    <ID>2</ID>
+    <Name>List B</Name>
+    <Date>09.02.2012</Date>
+  </Item>
+  <Item>
+    <ID>3</ID>
+    <Name>List C</Name>
+    <Date>14.02.2012</Date>
+  </Item>
+</ShoppingLists>

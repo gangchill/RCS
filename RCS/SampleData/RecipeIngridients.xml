@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeIngridients>
+	<Item>
+		<RecipeID>int</RecipeID>
+		<IngridientID>int</IngridientID>
+		<Amount>int</Amount>
+		<Unity>string (for example kg, pieces,...)</Unity>
+	</Item>
+	<Item>
+		<RecipeID></RecipeID>
+		<IngridientID></IngridientID>
+		<Amount></Amount>
+		<Unity></Unity>
+	</Item>
+	<Item>
+		<RecipeID></RecipeID>
+		<IngridientID></IngridientID>
+		<Amount></Amount>
+		<Unity></Unity>
+	</Item>
+	<Item>
+		<RecipeID></RecipeID>
+		<IngridientID></IngridientID>
+		<Amount></Amount>
+		<Unity></Unity>
+	</Item>
+	<Item>
+		<RecipeID></RecipeID>
+		<IngridientID></IngridientID>
+		<Amount></Amount>
+		<Unity></Unity>
+	</Item>
+	<Item>
+		<RecipeID></RecipeID>
+		<IngridientID></IngridientID>
+		<Amount></Amount>
+		<Unity></Unity>
+	</Item><Item>
+		<RecipeID></RecipeID>
+		<IngridientID></IngridientID>
+		<Amount></Amount>
+		<Unity></Unity>
+	</Item>
+	<Item>
+		<RecipeID></RecipeID>
+		<IngridientID></IngridientID>
+		<Amount></Amount>
+		<Unity></Unity>
+	</Item>
+</RecipeIngridients>

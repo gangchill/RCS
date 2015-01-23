@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Recipies>
+	<Recipe>
+		<ID>1</ID>
+		<Name>Spaghetti</Name>
+		<Image>no-image</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callary>300</Callary>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+	<Recipe>
+		<ID>2</ID>
+		<Name>Pizza</Name>
+		<Image>no-image</Image>
+		<RecipeText>First....Second....</RecipeText>
+		<Callary>300</Callary>
+		<Carbohydrate>203</Carbohydrate>
+		<Cholesterole>123</Cholesterole>
+		<TrafficSignImage>yellow</TrafficSignImage>
+		<CountryID>11</CountryID>
+		<DishtypeID>1</DishtypeID>
+	</Recipe>
+</Recipies>

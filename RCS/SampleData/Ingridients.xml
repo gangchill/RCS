@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Ingridients>
+	<Item>
+		<ID>1</ID>
+		<Name>Tomatos</Name>
+		<Type>Vegetables</Type>
+	</Item>
+	<Item>
+		<ID>2</ID>
+		<Name>Radish</Name>
+		<Type>Vegetables</Type>
+	</Item>
+	<Item>
+		<ID>3</ID>
+		<Name>Potato</Name>
+		<Type>Vegetables</Type>
+	</Item>
+	<Item>
+		<ID>4</ID>
+		<Name>Onion</Name>
+		<Type>Vegetables</Type>
+	</Item>
+	<Item>
+		<ID>5</ID>
+		<Name>Sweet Potato</Name>
+		<Type>Vegetables</Type>
+	</Item>
+	<Item>
+		<ID>6</ID>
+		<Name>Capsicum</Name>
+		<Type>Vegetables</Type>
+	</Item>
+
+	<Item>
+		<ID>7</ID>
+		<Name>Beans</Name>
+		<Type>Vegetables</Type>
+	</Item>
+
+	<Item>
+		<ID>8</ID>
+		<Name>Carrot</Name>
+		<Type>Vegetables</Type>
+	</Item>
+
+	<Item>
+		<ID>9</ID>
+		<Name>Cucumber</Name>
+		<Type>Vegetables</Type>
+	</Item>
+
+
+	<Item>
+		<ID>10</ID>
+		<Name>Mushroom</Name>
+		<Type>Vegetables</Type>
+	</Item>
+
+	<Item>
+		<ID>11</ID>
+		<Name>Bay leaf</Name>
+		<Type>Spices</Type>
+	</Item>
+
+	<Item>
+		<ID>12</ID>
+		<Name>Black Cumin</Name>
+		<Type>Spices</Type>
+	</Item>
+
+	<Item>
+		<ID>13</ID>
+		<Name>Black Pepper</Name>
+		<Type>Spices</Type>
+	</Item>
+
+	<Item>
+		<ID>14</ID>
+		<Name>Celery</Name>
+		<Type>Spices</Type>
+	</Item>
+
+	<Item>
+		<ID>15</ID>
+		<Name>Chile Pepper - red</Name>
+		<Type>Spices</Type>
+	</Item>
+
+	<Item>
+		<ID>16</ID>
+		<Name>Chile Pepper - green</Name>
+		<Type>Spices</Type>
+	</Item>
+	<Item>
+		<ID>17</ID>
+		<Name>Cinnamon</Name>
+		<Type>Spices</Type>
+	</Item>
+
+	<Item>
+		<ID>18</ID>
+		<Name>Clove</Name>
+		<Type>Spices</Type>
+	</Item>
+
+	<Item>
+		<ID>19</ID>
+		<Name>Coriander</Name>
+		<Type>Spices</Type>
+	</Item>
+
+	<Item>
+		<ID>20</ID>
+		<Name>Garlic</Name>
+		<Type>Spices</Type>
+	</Item>
+
+  <Item>
+    <ID>20</ID>
+    <Name>Garlic</Name>
+    <Type>Spices</Type>
+  </Item>
+
+  <Item>
+    <ID>21</ID>
+    <Name>Pork</Name>
+    <Type>Meat</Type>
+  </Item>
+
+  <Item>
+    <ID>22</ID>
+    <Name>Beaf</Name>
+    <Type>Meat</Type>
+  </Item>
+
+  <Item>
+    <ID>23</ID>
+    <Name>Fish</Name>
+    <Type>Meat</Type>
+  </Item>
+
+  <Item>
+    <ID>24</ID>
+    <Name>Turkey</Name>
+    <Type>Meat</Type>
+  </Item>
+
+  <Item>
+    <ID>25</ID>
+    <Name>Rice</Name>
+    <Type>Side Dish</Type>
+  </Item>
+
+  <Item>
+    <ID>26</ID>
+    <Name>Maccaroni</Name>
+    <Type>Side Dish</Type>
+  </Item>
+
+  <Item>
+    <ID>27</ID>
+    <Name>Spaghetti</Name>
+    <Type>Side Dish</Type>
+  </Item>
+
+  <Item>
+    <ID>28</ID>
+    <Name>Spätzle</Name>
+    <Type>Side Dish</Type>
+  </Item>
+
+  <Item>
+    <ID>29</ID>
+    <Name>Apple</Name>
+    <Type>Fruit</Type>
+  </Item>
+
+  <Item>
+    <ID>30</ID>
+    <Name>Ananas</Name>
+    <Type>Fruit</Type>
+  </Item>
+
+  <Item>
+    <ID>31</ID>
+    <Name>Banana</Name>
+    <Type>Fruit</Type>
+  </Item>
+
+</Ingridients>

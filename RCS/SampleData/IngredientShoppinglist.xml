@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<IngridientShoppingList>
+	<Item>
+		<IngridientID>1</IngridientID>
+		<ShoppinglistID>1</ShoppinglistID>
+		<Amount>200</Amount>
+		<Unit>g<Unit>
+	</Item>
+	<Item>
+		<IngridientID></IngridientID>
+		<ShoppinglistID></ShoppinglistID>
+		<Amount></Amount>
+	</Item>
+	<Item>
+		<IngridientID></IngridientID>
+		<ShoppinglistID></ShoppinglistID>
+		<Amount></Amount>
+	</Item>
+</IngridientShoppingList>

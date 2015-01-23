@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<IngridientShoppingList>
+	<Item>
+		<Ingridient>1</Ingridient>
+		<ShoppinglistID>1</ShoppinglistID>
+		<Amount>200</Amount>
+		<Unit>g</Unit>
+	</Item>
+  <Item>
+    <Ingridient>2</Ingridient>
+    <ShoppinglistID>1</ShoppinglistID>
+    <Amount>200</Amount>
+    <Unit>g</Unit>
+  </Item>
+  <Item>
+    <Ingridient>3</Ingridient>
+    <ShoppinglistID>1</ShoppinglistID>
+    <Amount>200</Amount>
+    <Unit>g</Unit>
+  </Item>
+  <Item>
+    <Ingridient>4</Ingridient>
+    <ShoppinglistID>1</ShoppinglistID>
+    <Amount>200</Amount>
+    <Unit>g</Unit>
+  </Item>
+  <Item>
+    <Ingridient>5</Ingridient>
+    <ShoppinglistID>1</ShoppinglistID>
+    <Amount>200</Amount>
+    <Unit>g</Unit>
+  </Item>
+  <Item>
+    <Ingridient>6</Ingridient>
+    <ShoppinglistID>1</ShoppinglistID>
+    <Amount>200</Amount>
+    <Unit>g</Unit>
+  </Item>
+
+  <Item>
+    <Ingridient>1</Ingridient>
+    <ShoppinglistID>2</ShoppinglistID>
+    <Amount>500</Amount>
+    <Unit>g</Unit>
+  </Item>
+
+  <Item>
+    <Ingridient>4</Ingridient>
+    <ShoppinglistID>2</ShoppinglistID>
+    <Amount>1</Amount>
+    <Unit>pc</Unit>
+  </Item>
+
+  <Item>
+    <Ingridient>2</Ingridient>
+    <ShoppinglistID>5</ShoppinglistID>
+    <Amount>300</Amount>
+    <Unit>g</Unit>
+  </Item>
+
+  <Item>
+    <Ingridient>3</Ingridient>
+    <ShoppinglistID>5</ShoppinglistID>
+    <Amount>1000</Amount>
+    <Unit>g</Unit>
+  </Item>
+
+  <Item>
+    <Ingridient>22</Ingridient>
+    <ShoppinglistID>5</ShoppinglistID>
+    <Amount>1500</Amount>
+    <Unit>g</Unit>
+  </Item>
+
+  <Item>
+    <Ingridient>29</Ingridient>
+    <ShoppinglistID>5</ShoppinglistID>
+    <Amount>5</Amount>
+    <Unit>pc</Unit>
+  </Item>
+</IngridientShoppingList>
